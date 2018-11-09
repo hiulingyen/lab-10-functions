@@ -4,10 +4,14 @@
   </head>
   <body>
   <script>
-  var numbers = parseInt(prompt("How many rees would you like? I can draw up to 6 trees for you. "));
-  for(var i = numbers ; i >= 1; i = i - 1 ){
+  function maketress() {
+  var numbers = parseInt(prompt("How many rees would you like?"));
+  for (i = 0 ; i < numbers ; i = i + 1 ){
     console.log("   /\\\n  /  \\\n  /  \\\n /    \\\n/      \\\n   ||\n   ||");
-  }
+  }}
+
+  maketress()
+  
   </script>
   </body>
 </html>
